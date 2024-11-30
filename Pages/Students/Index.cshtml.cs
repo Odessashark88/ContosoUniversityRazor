@@ -53,3 +53,4 @@ namespace ContosoUniversity.Pages.Students
             Students = await studentsIQ.AsNoTracking().ToListAsync();
         }
     }
+}
