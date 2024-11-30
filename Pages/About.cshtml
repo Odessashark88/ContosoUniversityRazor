@@ -19,13 +19,13 @@
 
     @foreach (var item in Model.Students)
     {
-            <tr>
-                <td>
+        <tr>
+            <td>
                 @Html.DisplayFor(modelItem => item.EnrollmentDate)
-                </td>
-                <td>
+            </td>
+            <td>
                 @item.StudentCount
-                </td>
-            </tr>
+            </td>
+        </tr>
     }
 </table>
